@@ -1,5 +1,5 @@
 import './styles/index.scss'
-import Documentation from './pages/documentation'
+import Documentation from './pages/Documentation'
 
 function App() {
   return (
