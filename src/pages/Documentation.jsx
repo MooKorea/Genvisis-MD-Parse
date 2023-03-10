@@ -3,7 +3,7 @@ import { Octokit } from "@octokit/core";
 
 export default function Documentation() {
   const octokit = new Octokit({
-    auth: "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",
+    auth: import.meta.env.VITE_GITHUB_ACCESS_TOKEN,
   });
 
   const [MD, setMD] = useState([]);
