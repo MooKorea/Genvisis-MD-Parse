@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'node-fetch': 'isomorphic-fetch',
+      'node-fetch': 'axios',
     },
   },
   define: {
