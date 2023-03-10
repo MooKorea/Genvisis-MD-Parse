@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'AvenirLTStd-Black';
+    src: url("abstracts/AvenirLTStd-Black.otf");
+}
+@font-face {
+    font-family: 'AvenirLTStd-Book';
+    src: url("abstracts/AvenirLTStd-Book.otf");
+}
+@font-face {
+    font-family: 'AvenirLTStd-Roman';
+    src: url("abstracts/AvenirLTStd-Roman.otf");
+}
+
+$textNormal: 'AvenirLTStd-Roman', sans-serif;
+$textHeavy: 'AvenirLTStd-Black', sans-serif;
